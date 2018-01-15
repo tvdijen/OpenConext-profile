@@ -123,7 +123,6 @@ final class AttributeAggregationAttribute
             $attributeData['linkedId'],
             '',
             '',
-            '',
             true
         );
     }
