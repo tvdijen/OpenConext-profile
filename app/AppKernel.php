@@ -63,4 +63,14 @@ class AppKernel extends Kernel
     {
         $loader->load($this->getRootDir().'/config/config_'.$this->getEnvironment().'.yml');
     }
+
+    public function getCacheDir()
+    {
+        return '/var/cache/sites/openconext/profile';
+    }
+
+    public function getLogDir()
+    {
+        return '/var/log/sites/openconext/profile';
+    }
 }
